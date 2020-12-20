@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class LocatingElements {
 
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver","/Users/raheen/Documents/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/Users/raheen/eclipse-workspace/SeleniumBasics/Drivers/chromedriver 2");
         WebDriver driver = new ChromeDriver();
         driver.get("http://fb.com");
         driver.findElement(By.id("email")).sendKeys("syntax");

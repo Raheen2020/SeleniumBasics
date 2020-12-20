@@ -11,7 +11,7 @@ public class Task2 {
 
     public static void main (String[]args){
 
-        System.setProperty("webdriver.chrome.driver","/Users/raheen/Documents/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/Users/raheen/eclipse-workspace/SeleniumBasics/Drivers/chromedriver 2");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.com/");
         driver.manage().window().maximize();

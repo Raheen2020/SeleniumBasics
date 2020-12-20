@@ -13,7 +13,7 @@ public class HandlingDropdowns {
     public static String url = "http://syntaxtechs.com/selenium-practice/basic-select-dropdown-demo.php";
 
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver","/Users/raheen/Documents/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/Users/raheen/eclipse-workspace/SeleniumBasics/Drivers/chromedriver 2");
         WebDriver driver = new ChromeDriver();
         driver.get(url);
         WebElement daysDD = driver.findElement(By.id("select-demo")); // locate the dropdown

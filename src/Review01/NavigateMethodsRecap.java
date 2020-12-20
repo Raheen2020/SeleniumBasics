@@ -7,7 +7,7 @@ public class NavigateMethodsRecap {
     public static void main(String[] args) throws InterruptedException {
 
         // 1. Set properties for our webdriver
-        System.setProperty("webdriver.chrome.driver","/Users/raheen/Documents/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/Users/raheen/eclipse-workspace/SeleniumBasics/Drivers/chromedriver 2");
 
         // Create an object of WebDriver interface
         WebDriver driver=new ChromeDriver();

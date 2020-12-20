@@ -14,7 +14,7 @@ public class HandlingDDWithIterator {
     public static String url = "https://www.amazon.com/";
 
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver","/Users/raheen/Documents/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/Users/raheen/eclipse-workspace/SeleniumBasics/Drivers/chromedriver 2");
         WebDriver driver = new ChromeDriver();
         driver.get(url);
         WebElement categoriesDD = driver.findElement(By.id("searchDropdownBox"));

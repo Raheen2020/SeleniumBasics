@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Task2 {
 
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver","/Users/raheen/Documents/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/Users/raheen/eclipse-workspace/SeleniumBasics/Drivers/chromedriver 2");
         WebDriver driver=new ChromeDriver();
         driver.navigate().to("https://www.facebook.com/");
         driver.findElement(By.id("u_0_2")).click();

@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class ElementCommands {
 
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver","/Users/raheen/Documents/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/Users/raheen/eclipse-workspace/SeleniumBasics/Drivers/chromedriver 2");
         WebDriver driver = new ChromeDriver();
         driver.get("http://syntaxtechs.com/selenium-practice/basic-radiobutton-demo.php");
         WebElement ageRadioButton = driver.findElement(By.xpath("//input[@value = '0 - 5']"));
